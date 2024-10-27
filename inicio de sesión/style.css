@@ -1,0 +1,114 @@
+body{
+    text-align: left;
+}
+.google{
+    background: #db4a39;
+    background-image: url(icons8-google.svg);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    width: 200px;
+    height: 28px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.face{
+    background: #3b5998;
+    background-image: url(icons8-facebook-nuevo.svg);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    width: 200px;
+    height: 28px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.mail{
+    background:  #0072c6;
+    background-image: url(icons8-mail-30.png);
+    background-repeat: no-repeat;
+    background-size: 28px;
+    width: 200px;
+    height: 28px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    text-align: center;
+    margin: -10px;
+    
+    
+}
+
+.olvcont{
+    color: black;
+    cursor: pointer;
+
+}
+
+.links{
+    text-align: left;
+    
+}
+
+
+
+.fin{
+    text-align: center;
+}
+
+.textp{
+    border-radius: 5px;
+    background-color: #eee;
+    border: 0;
+    float: right;
+    width: 80%;
+    opacity: 70%;
+}
+
+.textc{
+    border-radius: 5px;
+    background-color: #eee;
+    border: 0;
+    float: right;
+    width: 68%;
+    opacity: 70%;
+}
+
+.textct {
+    border-radius: 5px;
+    background-color: #eee;
+    border: 0;
+    float: center;
+    width: 80%;
+    height: 30px;
+
+}
+
+img{
+    width: 100px;
+    height: 50px;
+    margin-top: -50px;
+}
+
+.select{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.ingr{
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

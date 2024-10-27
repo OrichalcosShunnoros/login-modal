@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opciones</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body id="body">
+    <div class="botones">
+        <button id="inBtn" class="in" onclick="inises()">Iniciar sesión</button>
+        <button id="regBtn" class="reg" onclick="regusu()">Registrarse</button>
+    </div>
+
+    <div id="inireg">
+        <div id="inises">
+            <button onclick="cerrar1()" id="cerrar1">X</button>
+
+            <link rel="stylesheet" href="inicio de sesión/style.css">
+            <div class="sup">
+                <h1>Inicio de sesión</h1>
+            </div>
+            <br>
+            <div class="links">
+                <a
+                    href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ifkv=AXo7B7XIIMPhrEWQ2JPpJP4qThS2TeIxrm7FMTfnIljzRIthkdCI6ydoatuSFzjchbUF4Ggn97zjTw&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-771595326%3A1693635038951406&theme=glif"><button
+                        class="google">Accede
+                        con Google</button></a><br>
+                <a href="https://es-la.facebook.com/"><button class="face">Accede con facebook</button></a><br>
+                <a
+                    href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.microsoft365.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638294827087506026.Yzk4YzRhMTUtNTllYy00Y2QwLWI0ZDYtY2JiZDdmMTBjNjIwZjIwYmI2YjItNDRlYS00Y2QxLWFmMDUtNzFkMjBiNDViODZm&ui_locales=es-419&mkt=es-419&state=rBkuM-N3u_UyYpEp7BuGoj269lfyVVoOnmh6QD5IxgpNRkuxmw0XTLxCLTVqVhcolK85fGw4PBdnDYvlCzOli1CwhMeeskw3bYZ0hpZn44M-ul88GhFt0kuR_4mYuFVD3CFaKNfl12mh_BbCBJIbQ9ZMFJqfJyvUvLVrJcgwEmnt2khuy6M8R1EBG3feBzd0gA3WWhPrSAXLnOE0AyjUi_6PQSiqPDdkICJI-ZQ3ejlb0zOLjN_hr2Rv3mlX0o7J_AGCV79s5H-wdaSGwlozgfSds5CGg1DK2uysTkY3yvE&x-client-SKU=ID_NET6_0&x-client-ver=6.30.1.0&sso_reload=true"><button
+                        class="mail">Accede con Correo</button></a>
+            </div>
+            <br>
+            <div class="select">
+                <span><b>Tipo de usuario</b></span>
+                <select class="select">
+                    <option value="opt1">Cliente</option>
+                    <option value="opt2">Empresa</option>
+                </select>
+            </div>
+            <div>
+                <label for="name">Correo electrónico</label>
+                <input class="textc" type="text"><br>
+                <label for="password">Contraseña</label>
+                <input class="textp" type="password">
+            </div>
+            <br>
+            <div class="fin">
+                <a class="olvcont" href="#" onclick="alert('Paila, no se ha creado el cómo recuperarla.')">Olvidé mi contraseña</a><br>
+                <p>Digíte los caracteres presentados acontinuación</p>
+                <br>
+                <img src="/inicio de sesión/evitar-captcha.jpg" alt="captcha">
+                <input class="textct" type="text" name="captcha"><br>
+                <a href="#" onclick="alert('De momento no hay algún sitio al que ingresar.')"><button class="ingr">Ingresar</button></a>
+            </div>
+
+        </div>
+
+        <div id="regusu">
+
+            <button onclick="cerrar2()" id="cerrar2">X</button>
+
+            <link rel="stylesheet" href="/Registro de usuario/stylereg.css">
+            <div class="sup">
+                <h1>Registro de usuario</h1>
+            </div>
+            <div class="select">
+                <span>Tipo de usuario</span>
+                <select class="select">
+                    <option value="opt1">Cliente</option>
+                    <option value="opt2">Empresa</option>
+                </select>
+            </div>
+
+            <div class="txtcamps">
+                <label for="name">Correo electrónico</label>
+                <input type="text"><br>
+                <label for="password">Contraseña</label>
+                <input type="password"><br>
+                <label for="name">Confirmación de contraseña</label>
+                <input type="password"><br>
+                <label for="nombre">Nombre</label>
+                <input type="text"><br>
+                <label for="name">Apellido</label>
+                <input type="text"><br>
+                <label for="tel">Número de celular</label>
+                <select class="select">
+                    <option value="opt1">+57</option>
+                    <option value="opt2">+52</option>
+                </select>
+                <input type="number">
+            </div>
+
+            <div>
+                <p>Genero
+                    <input class="r" type="radio" name="m" value="m">M
+                    <input class="r" type="radio" name="w" value="w">W
+                    <input class="r" type="radio" name="nb" value="nb">NB
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    Fecha de nacimiento <input type="date">
+                </p>
+            </div>
+            <a href="#" onclick="alert('No se puede puede realizar el registro de momento.')"><button class="but">Registrarse</button></a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+body{
+    margin: 100px; 
+
+}
+
+.botones{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.in, .reg{
+    margin: 8px;
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#inises{
+    margin-right: 5px;
+    height: 450px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+    background: linear-gradient(to bottom, #3288ff, #00d0ff);
+    display: none;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+#regusu{
+    margin-left: 5px;
+    height: 350px;
+    width: 400px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+    background: linear-gradient(to bottom, #3288ff, #00d0ff);
+    display: none;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+#inireg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 240px;
+    
+}
+
+.sup{
+    height: 50px;
+}
+
+#cerrar1{
+    margin-left: 94%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+#cerrar2{
+    margin-left: 94%;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+
+
+

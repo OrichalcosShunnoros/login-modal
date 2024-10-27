@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de usuario</title>
+    <link rel="stylesheet" href="stylereg.css">
+</head>
+<body>
+    <div class="sup">
+        <h1>Registro de usuario</h1>
+    </div>
+    <div class="select">
+        <span>Tipo de usuario</span>
+        <select>
+          <option value="opt1">Cliente</option>
+          <option value="opt2">Empresa</option>
+        </select>
+    </div>
+    <div class="txtcamps">
+        <label for="name">Correo electrónico</label>
+        <input type="text"><br>
+        <label for="password">Contraseña</label>
+        <input type="password"><br>
+        <label for="name">Confirmación de contraseña</label>
+        <input type="password"><br>
+        <label for="nombre">Nombre</label>
+        <input type="text"><br>
+        <label for="name">Apellido</label>
+        <input type="text"><br>
+        <label for="tel">Número de celular</label>
+        <select>
+            <option value="opt1">+57</option>
+            <option value="opt2">+52</option>
+          </select>
+        <input type="number">
+    </div>
+
+    <div>
+        <p>Genero
+        <input type="radio" name="empleoactual" value="m">M
+        <input type="radio" name="empleoactual" value="w">W
+        <input type="radio" name="empleoactual" value="nb">NB
+        </p>
+    </div>
+    <div>
+        <p>
+            Fecha de nacimiento <input type="date">
+        </p>
+    </div>
+    <a class="but" href="#"><button>Registrarse</button></a>
+</body>
+</html>

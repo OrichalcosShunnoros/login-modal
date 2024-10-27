@@ -1,0 +1,29 @@
+body{
+    text-align: left;
+}
+
+
+
+input{
+    border-radius: 10px;
+    border: 0;
+    opacity: 50%;
+    outline: none;
+}
+
+.select{
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.but{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+
+.r{
+    cursor: pointer;
+    border: none;
+}
